@@ -26,4 +26,8 @@ p B.ancestors
 p B.new.show
 p B.show
 
+<<<<<<< Updated upstream
 #changes second time after adding it to stash
+=======
+#added new changes
+>>>>>>> Stashed changes
