@@ -25,3 +25,5 @@ end
 p B.ancestors
 p B.new.show
 p B.show
+
+#changes second time after adding it to stash
