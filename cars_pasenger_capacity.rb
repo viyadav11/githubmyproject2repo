@@ -17,7 +17,7 @@
 puts"Enter number of cars"
 
 i=gets.chomp.to_i
-p i
+
 array=[]
   (1..i).each {|m|
     puts "The capacity of the #{m} car is"
@@ -30,12 +30,10 @@ array=[]
  pas=gets.chomp.to_i
  f=0
  z=0
- p array
+ 
  array.each{ |s|
-f=f+s
-if pas>f
-
-
+    f=f+s
+    if pas>f
     z=z+1
 elsif pas<=f
     z=z+1
@@ -46,5 +44,5 @@ end
 if(z==array.length && pas>f)
     puts "We dont have much cars"
 else
-p "Cars needed for the passengers is #{z}"
+    puts "Cars needed for the passengers is #{z}"
 end
