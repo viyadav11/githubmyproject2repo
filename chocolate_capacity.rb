@@ -26,6 +26,8 @@ if capacity>chocolates
     remainingchocolate=chocolates-capacity 
          @level=@level+1
           capacity=remainingchocolate
+  else
+    
          
   end
   @level=@level+1
@@ -33,4 +35,4 @@ if capacity>chocolates
 end
 p @level+1
 
-
+p capacity
