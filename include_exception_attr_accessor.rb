@@ -39,13 +39,19 @@ def initialize first,second
         @first=first
         @second=second
 end
+<<<<<<< HEAD
 
+=======
+a=@first
+b=@second
+>>>>>>> 8c9535bebcc58a522218d97ebc254222b4685ce6
 
 
 
 end
 
 o1=Calculator.new(10,20)
+<<<<<<< HEAD
 o1.first=1
 o1.second=0
 p o1.division()
@@ -65,3 +71,8 @@ p o1.division()
 #   obj.set = "Vaibhav", 24
   
 #   puts obj.get
+=======
+o1.first=30
+o1.second=2
+p o1.division()
+>>>>>>> 8c9535bebcc58a522218d97ebc254222b4685ce6
